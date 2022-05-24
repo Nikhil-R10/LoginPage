@@ -1,0 +1,42 @@
+﻿.login
+{
+	background-color: white;
+	padding: 3%;
+	border-radius: 3%;
+	box-shadow: 20px 20px 20px 0px rgba(0,0,0,0.7);
+	display: inline-block;
+	position: absolute;
+	top: 25%;
+	right: 20%;
+	font-size: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#register
+{
+	font-size: 15px;
+}
+
+.text
+{
+	font-size: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	display: inline-block;
+	position: absolute;
+	top: 25%;
+	left: 20%;
+}
+
+.dob
+{
+	font-size: 50%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.gender
+{
+	font-size: 50%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
