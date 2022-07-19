@@ -13,9 +13,9 @@ jobs:
     env:
       APP_ID: 9605754f7674cd39beb07d9bc1c6ce676120d8ae089181a23b4c299a41eefe1f
       BRANCH_NAME: main
-      SCAN_ID: f067fbe8e2187e4797f53497a06cb9eceb49e3e7779f18eef5fa4e64c21b3028
-      REQ_URL_MAP: "${{toJSON('{\"SL_RESULT_API_HOST\":\"https://slresultapi.dev.securin.io/resultapi/v1\"\
-        ,\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.dev.securin.io/resultparserapi/v1\"\
+      SCAN_ID: dd4a37bff26ca1de2e2e90b7611002c0890d15e0e36bc6852bba4f4d27034a0f
+      REQ_URL_MAP: "${{toJSON('{\"SL_RESULTPARSER_API_HOST\":\"https://slresultparserapi.dev.securin.io/resultparserapi/v1\"\
+        ,\"SL_RESULT_API_HOST\":\"https://slresultapi.dev.securin.io/resultapi/v1\"\
         }')}}"
     steps:
     - name: Retrieve Token Info
